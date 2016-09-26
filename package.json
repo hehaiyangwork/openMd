@@ -1,0 +1,33 @@
+{
+  "main": "index.html",
+  "name": "openMd",
+  "description": "this is a makedown editor",
+  "author": "HeHaiyang",
+  "email": "hehaiyangwork@qq.com",
+  "license": "MIT",
+  "window": {
+    "show": true,
+    "frame": true,
+    "toolbar": true,
+    "icon": "icon.png",
+    "width": 800,
+    "height": 400,
+    "min_width": 800,
+    "min_height": 400,
+    "resizable": true,
+    "position": "center",
+    "title": "openMd"
+  },
+  "scripts": {
+    "start": "nw ."
+  },
+  "javascripts": {
+    "vendor": "public/javascripts/vendor/"
+  },
+  "stylesheets": {
+    "emoji": "public/stylesheets/emoji/",
+    "fonts": "public/stylesheets/fonts/",
+    "imgs": "public/stylesheets/images/",
+    "vendor": "public/stylesheets/vendor/"
+  }
+}
