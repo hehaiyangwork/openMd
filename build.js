@@ -1,19 +1,3 @@
-### openMd
-
-1. markdown [thinker-md](https://git.oschina.net/benhail/thinker-md)
-2. 桌面应用 [NW.js](https://github.com/nwjs/nw.js)
-
-3. 如何打包
-
-- 安装nw-builder
-
-```
-npm install nw-builder --save
-```
-
-- 新建build.js文件
-
-```
 var NwBuilder = require('nw-builder');
 
 var nw = new NwBuilder({
@@ -31,10 +15,3 @@ nw.build().then(function(){
 }).catch(function(err){
   console.log(err);
 });
-```
-
-- 运行命令打包，需要一点时间下载
-
-```
-node build.js
-```

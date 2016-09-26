@@ -16,7 +16,7 @@
 	    @import "public/stylesheets/vendor/sunburst.css";
 	</style>
 </head>
-<body>
+<body onload="load()">
 	<textarea style="height:340px;overflow-y:visible" name="content" rows="10" placeholder="这里输入内容,支持Markdown语法."></textarea>
 
 	<script type="text/javascript" charset="utf-8" src="../public/javascripts/vendor/underscore/underscore-min.js"></script>
@@ -43,6 +43,7 @@
 		try {
 			var gui = require('nw.gui');
 			var win = gui.Window.get();
+			win.show();
 		} catch(e) {
 			console.log(e)
 		}

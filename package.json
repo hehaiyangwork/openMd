@@ -1,6 +1,7 @@
 {
-  "main": "index.html",
   "name": "openMd",
+  "main": "index.html",
+  "version": "0.0.1",
   "description": "this is a makedown editor",
   "author": "HeHaiyang",
   "email": "hehaiyangwork@qq.com",
@@ -9,7 +10,7 @@
     "show": true,
     "frame": true,
     "toolbar": true,
-    "icon": "icon.png",
+    "icon": "app.png",
     "width": 800,
     "height": 400,
     "min_width": 800,
@@ -29,5 +30,8 @@
     "fonts": "public/stylesheets/fonts/",
     "imgs": "public/stylesheets/images/",
     "vendor": "public/stylesheets/vendor/"
+  },
+  "dependencies": {
+    "nw-builder": "^3.1.0"
   }
 }
