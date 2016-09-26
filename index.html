@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenMd - Markdown Editor</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="" />
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <!--//fonts-->
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+
+            $('#activator').click(function() {
+                $('#box').animate({
+                    'top': '0px'
+                }, 900);
+            });
+            $('#boxclose').click(function() {
+                $('#box').animate({
+                    'top': '-1000px'
+                }, 900);
+            });
+
+            /*
+            	var defaults = {
+            	containerID: 'toTop', // fading element id
+            	containerHoverID: 'toTopHover', // fading element hover id
+            	scrollSpeed: 1200,
+            	easingType: 'linear'
+            	};
+            */
+            $().UItoTop({
+                easingType: 'linear'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- banner -->
+    <div class="banner" id="home">
+        <div class="container">
+            <div class="top-header row">
+                <!--top-nav---->
+                <div class="logo">
+                    <a href="index.html"><h3 style="color: #fff;">OpenMd</h3></a>
+                </div>
+                <div class="top-nav">
+                    <div class="nav-icon">
+                        <a href="#" class="right_bt" id="activator"><span> </span> </a>
+                    </div>
+                    <div class="box" id="box">
+                        <div class="box_content">
+                            <div class="box_content_center">
+                                <div class="form_content">
+                                    <div class="menu_box_list">
+                                        <ul>
+                                            <li><a class="scroll" href="#home"><span>home</span></a></li>
+                                            <li><a class="scroll" href="#about"><span>about</span></a></li>
+                                            <div class="clearfix"> </div>
+                                        </ul>
+                                    </div>
+                                    <a class="boxclose" id="boxclose"> <span> </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clearfix"> </div>
+            </div>
+            <div class="banner-info">
+                <div class="banner-right">
+                    <h1>OpenMd</h1>
+                    <div class="border"></div>
+                    <h2>Markdown Editor</h2>
+                    <a href="#">DOWNLOAD</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--/header-banner-->
+
+
+    <!--about-->
+    <div class="about text-center" id="about">
+        <div class="container">
+            <h3>ABOUT More</h3>
+            <div class="strip text-center"><img src="images/radio.png" alt=" " /></div>
+            <p>Dyin' ain't much of a livin', boy. here. put that in your report!" and "i may have found a way out of here. you want a guarantee, buy a toaster. here. put that in your report!" and "i may have found a way out of here. this is the ak-47 assault
+                rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at you, so remember it. this is the ak-47 assault rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at you, so
+                remember it. don't p!ss down my back and tell me it's raining. this is the ak-47 assault rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at you, so remember it. don't p!ss down my back and tell me
+                it's raining. this is my gun, clyde! man's gotta know his limitations. ever notice how sometimes you come across somebody you shouldn't have f**ked with? well, i'm that guy.</p>
+
+        </div>
+    </div>
+    <!--//about-->
+
+
+    <!--resume-->
+    <div class="resume text-center">
+        <div class="container">
+            <div class="strip text-center">
+                <a href="#"><img src="images/down.png" alt=" " /></a>
+            </div>
+            <div class="down"><a href="#">Download Now</a></div>
+        </div>
+    </div>
+    <!--//resume-->
+
+
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <p>Copyright &copy; 2016 OpenMd. Template by <a href="https://www.github.com">GitHub</a></p>
+        </div>
+    </div>
+    <!--//footer-->
+</body>
+
+</html>
