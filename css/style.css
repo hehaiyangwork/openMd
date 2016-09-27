@@ -32,7 +32,9 @@ body a:hover{
 	margin-top: 15px;
 }
 .top-header{
-margin-top:50px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top:50px;
 }
 .right_bt span{
 	width: 37px;
@@ -113,20 +115,20 @@ a.boxclose{
 width:65%;
 margin: 141px auto 0 auto;
 }
-.banner-right h1{
+.banner-detail h1{
 font-size:34px;
 font-weight:800;
 color:#ffffff;
 margin:35px 0 15px 0;
 letter-spacing: 15px;
 }
-.banner-right h2{
+.banner-detail h2{
   font-size: 50px;
   font-weight: 300;
   color: #ffffff;
   margin: 15px 0 45px 0;
 }
-.banner-right a{
+.banner-detail a{
 text-decoration:none;
 color:#ffffff;
 font-size:16px;
@@ -134,7 +136,7 @@ font-weight:500;
 padding:16px 20px;
 border:2px solid #fff;
 }
-.banner-right a:hover{
+.banner-detail a:hover{
 border:2px solid #000;
 }
 
@@ -220,7 +222,7 @@ color:#ffffff;
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	bottom: 0px;
+	bottom: 50px;
 	right: 2%;
 	overflow: hidden;
 	z-index: 999;
@@ -250,6 +252,8 @@ color:#ffffff;
 /*-- responsive media queries --*/
 @media(max-width:1440px){
 	.top-header {
+		width: 90%;
+		margin: 0 auto;
 	  margin-top: 30px;
 	}
 	.banner {
@@ -300,14 +304,14 @@ color:#ffffff;
 	  width: 78%;
 	  margin: 100px auto 0 auto;
 	}
-	.banner-right h1 {
+	.banner-detail h1 {
 	  font-size: 30px;
 	  margin: 23px 0 15px 0;
 	}
-	.banner-right h2 {
+	.banner-detail h2 {
 	  font-size: 45px;
 	  }
-	.banner-right a {
+	.banner-detail a {
 	  font-size: 14px;
 	  padding: 12px 20px;
 	}
@@ -351,7 +355,7 @@ color:#ffffff;
 	.banner-info {
 	  width: 96%;
 	}
-	.banner-right {
+	.banner-detail {
 	  margin: 0 auto;
 	  width: 64%;
 	}
@@ -365,16 +369,16 @@ color:#ffffff;
 	.banner {
 	  min-height: 467px;
 	}
-	.banner-right h1 {
+	.banner-detail h1 {
 	  font-size: 28px;
 	}
 	.border {
 	  width: 58%;
 	}
-	.banner-right h2 {
+	.banner-detail h2 {
 	  font-size: 40px;
 	}
-	.banner-right h2 {
+	.banner-detail h2 {
 	  margin: 15px 0 35px 0;
 	}
 	.about h3 {
@@ -412,18 +416,17 @@ color:#ffffff;
 	.banner-info {
 	  width: 100%;
 	}
-	.banner-right {
-	  float: right;
+	.banner-detail {
 	  width: 70%;
 	}
-	.banner-right h1 {
+	.banner-detail h1 {
 	  font-size: 20px;
 		letter-spacing: 10px;
 	}
-	.banner-right h2 {
+	.banner-detail h2 {
 	  font-size: 30px;
 	}
-	.banner-right h2 {
+	.banner-detail h2 {
 	  margin: 10px 0 28px 0;
 	}
 	.banner {
@@ -448,28 +451,30 @@ color:#ffffff;
 	  width: 35%;
 	}
 	.top-header {
+		width: 90%;
+		margin: 0 auto;
 	  margin-top: 18px;
 	}
 	.footer p {
 	  font-size: 13px;
 	}
-	.banner-right h1 {
+	.banner-detail h1 {
 	  font-size: 16px;
 	  letter-spacing: 5px;
 	}
-	.banner-right h2 {
+	.banner-detail h2 {
 	  font-size: 18px;
 	}
-	.banner-right a {
+	.banner-detail a {
 	  font-size: 13px;
 	}
-	.banner-right a {
+	.banner-detail a {
 	  padding: 5px 4px;
 	}
-	.banner-right h2 {
+	.banner-detail h2 {
 	  margin: 6px 0 14px 0;
 	}
-	.banner-right h1 {
+	.banner-detail h1 {
 	  margin: 8px 0 8px 0;
 	}
 	.banner-info {

@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>OpenMd - Markdown Editor</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="" />
-    <!--fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <!--//fonts-->
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -44,7 +41,8 @@
             	};
             */
             $().UItoTop({
-                easingType: 'linear'
+                easingType: 'linear',
+                scrollSpeed: 500,
             });
         });
     </script>
@@ -54,7 +52,7 @@
     <!-- banner -->
     <div class="banner" id="home">
         <div class="container">
-            <div class="top-header row">
+            <div class="top-header">
                 <!--top-nav---->
                 <div class="logo">
                     <a href="index.html"><h3 style="color: #fff;">OpenMd</h3></a>
@@ -64,27 +62,22 @@
                         <a href="#" class="right_bt" id="activator"><span> </span> </a>
                     </div>
                     <div class="box" id="box">
-                        <div class="box_content">
-                            <div class="box_content_center">
-                                <div class="form_content">
-                                    <div class="menu_box_list">
-                                        <ul>
-                                            <li><a class="scroll" href="#home"><span>home</span></a></li>
-                                            <li><a class="scroll" href="#about"><span>about</span></a></li>
-                                            <div class="clearfix"> </div>
-                                        </ul>
-                                    </div>
-                                    <a class="boxclose" id="boxclose"> <span> </span></a>
-                                </div>
-                            </div>
+                      <div class="box_content_center">
+                        <div class="menu_box_list">
+                            <ul>
+                                <li><a class="scroll" href="#home"><span>home</span></a></li>
+                                <li><a class="scroll" href="#about"><span>about</span></a></li>
+                                <div class="clearfix"> </div>
+                            </ul>
                         </div>
+                        <a class="boxclose" id="boxclose"> <span> </span></a>
+                      </div>
                     </div>
                 </div>
-
                 <div class="clearfix"> </div>
             </div>
             <div class="banner-info">
-                <div class="banner-right">
+                <div class="banner-detail">
                     <h1>OpenMd</h1>
                     <div class="border"></div>
                     <h2>Markdown Editor</h2>
